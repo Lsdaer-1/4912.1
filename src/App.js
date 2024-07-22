@@ -2,24 +2,36 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import './App.css';
 import Footer from './Footer';
-import React, { useState } from 'react';
+import './i18n';
 import PhotoCarousel from './PhotoCarousel';
-import GuideModal from './GuideModal';
+import { useTranslation } from 'react-i18next';
+import WelcomeModal from './WelcomeModal';
 import Results from './Results';
 import CenteredTextBox from './CenteredTextBox';
 import Activities from './Activities';
+import React, { useState, useEffect } from 'react';
+
 function App() {
+  const { t, i18n } = useTranslation();
   const [isGuideOpen, setIsGuideOpen] = useState(false);
   const [selectedCategories, setSelectedCategories] = useState([]);
-
+  const [isWelcomeOpen, setIsWelcomeOpen] = useState(false);
+  
   const clearSelections = () => {
     setSelectedCategories([]);
   };
+  useEffect(() => {
+   
+    setIsWelcomeOpen(true);
+  }, []);
+  const closeWelcome = () => setIsWelcomeOpen(false);
 
   return (
     <>
     <Router>
       <Navbar />
+      
+      <WelcomeModal isOpen={isWelcomeOpen} onRequestClose={closeWelcome} />
       <br></br>
       <br></br>
       <br></br>
@@ -46,12 +58,13 @@ function App() {
 export default App;
 
 function Home() {
+  const { t } = useTranslation();
   return (
     <div>
       <section id="home">
       <div className="home">
-        <h2>Starting our life in Canada</h2>
-        <p>You can search for what you want by using the Guide button on the navigation bar.</p>
+        <h2>{t('gu1')}</h2>
+        <p>{t('gu2')}</p>
       </div>
       </section>
       

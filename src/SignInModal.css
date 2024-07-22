@@ -5,7 +5,11 @@
     align-items: center;
     justify-content: center;
 }
-
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
 .ReactModal__Content {
   position: static ;
   top: auto;

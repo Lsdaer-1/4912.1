@@ -13,6 +13,8 @@
   }
   
   .navbar-logo {
+    display: flex;
+    align-items: center;
     color: white;
     font-size: 1.5em;
     font-weight: bold;

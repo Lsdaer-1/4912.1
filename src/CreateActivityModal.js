@@ -23,6 +23,12 @@ function CreateActivityModal({ isOpen, onRequestClose }) {
     onRequestClose();
   };
 
+  const calculateProgress = () => {
+    const totalFields = Object.keys(activity).length;
+    const filledFields = Object.values(activity).filter(value => value).length;
+    return (filledFields / totalFields) * 100;
+  };
+
   return (
     <Modal
       isOpen={isOpen}
@@ -32,6 +38,9 @@ function CreateActivityModal({ isOpen, onRequestClose }) {
       overlayClassName="create-activity-overlay"
     >
       <h2>Create Activity</h2>
+      <div className="progress-bar">
+        <div className="progress" style={{ width: `${calculateProgress()}%` }}></div>
+      </div>
       <form onSubmit={handleSubmit}>
         <label>
           Activity Name:

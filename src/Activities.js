@@ -1,5 +1,6 @@
 import React from 'react';
 import './Activities.css';
+import { useTranslation } from 'react-i18next';
 import photo1 from './Photo/p4.webp';
 import photo2 from './Photo/p5.webp';
 import photo3 from './Photo/p6.webp';
@@ -41,10 +42,13 @@ const activitiesData = [
 ];
 
 const Activities = () => {
+    const { t } = useTranslation();
     return (
       <div className="activities-container">
-        <h2>Activities</h2>
-        <p>We're hosting a few events right now and would love to have you join us!</p>
+        <div className="activities-container2">
+        <h2>{t('act')}</h2>
+        <p>{t('act2')}</p>
+        </div>
         <br></br>
         <div className="activities-grid">
           {activitiesData.map((activity, index) => (
@@ -52,10 +56,11 @@ const Activities = () => {
               <img src={activity.image} alt={`Activity ${index + 1}`} />
               <div className="activity-text">
                 <input type="text" aria-label="Activities name" value={activity.text} readOnly />
-                <button>{activity.buttonText}</button>
+                <button>{t('act3')}</button>
               </div>
             </div>
           ))}
+        
         </div>
       </div>
     );

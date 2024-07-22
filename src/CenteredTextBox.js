@@ -1,13 +1,14 @@
 import React from 'react';
 import './CenteredTextBox.css';
-
+import { useTranslation } from 'react-i18next';
 const CenteredTextBox = () => {
+  const { t } = useTranslation();
   return (
     <div className="centered-container">
       <div className="centered-text-box">
-        <h2>Welcome to ConnectCanada</h2>
+        <h2>{t('welcome')}</h2>
         <p>
-        ConnectCanada is a social networking site designed for international students coming to Canada. Here you can share information about your neighborhood, learn about cultural events in Canada, and connect with other international students. Our goal is to help you better adapt and integrate into life in Canada.
+        {t('welcome2')}
         </p>
       </div>
     </div>

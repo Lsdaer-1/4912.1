@@ -220,7 +220,7 @@ function GuideModal({ isOpen, onRequestClose }) {
               </li>
             </ul>
           </li>
-          {/* Adding more categories in different languages */}
+      
           <li>
             <input
               type="checkbox"

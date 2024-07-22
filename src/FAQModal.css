@@ -1,5 +1,5 @@
-/* src/CreateActivityModal.css */
-.create-activity-modal {
+/* src/FAQModal.css */
+.ReactModal2__Content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,11 +12,12 @@
   border-radius: 8px;
   width: 50vw;
   max-width: 500px;
+  max-height: 80vh; /* 设置最大高度 */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow-y: auto;
+  overflow-y: auto; /* 添加垂直滚动条 */
 }
 
-.create-activity-overlay {
+.ReactModal2__Overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -25,39 +26,31 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.progress-bar {
-  width: 100%;
-  background-color: #f3f3f3;
-  border-radius: 4px;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.progress {
-  height: 10px;
-  background-color: #4caf50;
-  width: 0%;
-}
-
-form {
+.faq-container {
   display: flex;
   flex-direction: column;
 }
 
-label {
+.faq-content {
+  flex: 1;
+  overflow-y: auto; /* 确保内容可以滚动 */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
   margin-bottom: 10px;
 }
 
-input {
-  margin-left: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
 button {
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
   background-color: #007bff;
   color: white;
   border: none;
