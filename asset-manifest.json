@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/SEG3525-pj2-e5/static/css/main.038b7e7f.css",
-    "main.js": "/SEG3525-pj2-e5/static/js/main.ad7d8dc1.js",
-    "static/media/p3.webp": "/SEG3525-pj2-e5/static/media/p3.8f426c1cbfc7e8b6161c.webp",
-    "static/media/p2.webp": "/SEG3525-pj2-e5/static/media/p2.c63695e419419a69298d.webp",
-    "static/media/p1.webp": "/SEG3525-pj2-e5/static/media/p1.548a0bca3fd0dfd33a5f.webp",
-    "static/media/bookphoto6.jpg": "/SEG3525-pj2-e5/static/media/bookphoto6.3a4aa66202e28975046d.jpg",
-    "static/media/bookphoto5.jpg": "/SEG3525-pj2-e5/static/media/bookphoto5.8d070ca8ea402a2e1148.jpg",
-    "static/media/bookphoto1.jpg": "/SEG3525-pj2-e5/static/media/bookphoto1.5638b54e55ba810cbe60.jpg",
-    "static/media/bookphoto4.jpg": "/SEG3525-pj2-e5/static/media/bookphoto4.dae366b157b2da6a1db0.jpg",
-    "static/media/bookphoto2.jpg": "/SEG3525-pj2-e5/static/media/bookphoto2.020e2fcdcfae33dbb4e6.jpg",
-    "static/media/bookphoto3.jpg": "/SEG3525-pj2-e5/static/media/bookphoto3.72a6f6a48e053936bd2c.jpg",
-    "index.html": "/SEG3525-pj2-e5/index.html",
-    "main.038b7e7f.css.map": "/SEG3525-pj2-e5/static/css/main.038b7e7f.css.map",
-    "main.ad7d8dc1.js.map": "/SEG3525-pj2-e5/static/js/main.ad7d8dc1.js.map"
+    "main.css": "/4912.1/static/css/main.038b7e7f.css",
+    "main.js": "/4912.1/static/js/main.6b7ab42e.js",
+    "static/media/p3.webp": "/4912.1/static/media/p3.8f426c1cbfc7e8b6161c.webp",
+    "static/media/p2.webp": "/4912.1/static/media/p2.c63695e419419a69298d.webp",
+    "static/media/p1.webp": "/4912.1/static/media/p1.548a0bca3fd0dfd33a5f.webp",
+    "static/media/bookphoto6.jpg": "/4912.1/static/media/bookphoto6.3a4aa66202e28975046d.jpg",
+    "static/media/bookphoto5.jpg": "/4912.1/static/media/bookphoto5.8d070ca8ea402a2e1148.jpg",
+    "static/media/bookphoto1.jpg": "/4912.1/static/media/bookphoto1.5638b54e55ba810cbe60.jpg",
+    "static/media/bookphoto4.jpg": "/4912.1/static/media/bookphoto4.dae366b157b2da6a1db0.jpg",
+    "static/media/bookphoto2.jpg": "/4912.1/static/media/bookphoto2.020e2fcdcfae33dbb4e6.jpg",
+    "static/media/bookphoto3.jpg": "/4912.1/static/media/bookphoto3.72a6f6a48e053936bd2c.jpg",
+    "index.html": "/4912.1/index.html",
+    "main.038b7e7f.css.map": "/4912.1/static/css/main.038b7e7f.css.map",
+    "main.6b7ab42e.js.map": "/4912.1/static/js/main.6b7ab42e.js.map"
   },
   "entrypoints": [
     "static/css/main.038b7e7f.css",
-    "static/js/main.ad7d8dc1.js"
+    "static/js/main.6b7ab42e.js"
   ]
 }
