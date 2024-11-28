@@ -8,9 +8,9 @@ import { useTranslation } from 'react-i18next';
 import WelcomeModal from './WelcomeModal';
 import Results from './Results';
 import CenteredTextBox from './CenteredTextBox';
-import Activities from './Activities';
+import Recommended from './Recommend';
 import React, { useState, useEffect } from 'react';
-
+import History from './History';
 function App() {
   const { t, i18n } = useTranslation();
   const [isGuideOpen, setIsGuideOpen] = useState(false);
@@ -36,11 +36,12 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-      <PhotoCarousel />
+      {/*<PhotoCarousel /> */}
       <CenteredTextBox />
-      <Activities />
+      <Recommended />
       <Home />
       <Routes>  
+          <Route path="/history" element={<History />} />
           <Route path="/results" element={<Results />} />
         </Routes> 
         

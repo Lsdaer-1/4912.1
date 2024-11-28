@@ -24,13 +24,30 @@ const FAQModal = ({ isOpen, onRequestClose }) => (
           <p>Click on the 'Forgot Password' link on the login page and follow the instructions to reset your password.</p>
         </div>
         <div>
-          <h3>How do I create and manage events?</h3>
-          <p>To create an event, go to the 'Create' section, fill in the event details, and submit. To manage your events, navigate to the 'My Activities' section.</p>
+          <h3>How do i borrow books?</h3>
+          <p>To borrow books, visit our library in person or log in to our online catalog, select the books you want, and click on the "Borrow" button. You may need your library card or account details to complete the process.</p>
         </div>
         <div>
-          <h3>What should I do if I encounter payment issues?</h3>
-          <p>If you experience any issues with payments, please contact our support team through the 'Contact Us' section for assistance.</p>
+          <h3>How many books can i borrow at once?</h3>
+          <p>You can borrow up to 3 books at a time. This limit may vary depending on your membership level or the specific library’s policy.</p>
         </div>
+        <div>
+          <h3>What is borrowing period?          </h3>
+          <p>The standard borrowing period is 4 weeks. You can check the due date on your borrowing receipt or in your online account.</p>
+        </div>
+        <div>
+          <h3>Can I extend the borrowing period?</h3>
+          <p>Yes, you can renew your borrowed books if no one else has reserved them. Renewals can usually be done online, by phone, or in person, up to 3 times.</p>
+        </div>
+        <div>
+          <h3>What happens if I return a book late?</h3>
+          <p>If you return books after the due date, a late fee of [amount] per day may apply. Please check our late fee policy for details.</p>
+        </div>
+        <div>
+          <h3>How do I return a borrowed book?</h3>
+          <p>You can return books to the library at the front desk or drop them in the book return box. If you borrowed online, return instructions will be provided with your order, you can return the books online.</p>
+        </div>
+        
       </div>
       <button onClick={onRequestClose}>Close</button>
     </div>

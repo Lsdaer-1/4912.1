@@ -14,8 +14,9 @@ const WelcomeModal = ({ isOpen, onRequestClose }) => (
     overlayClassName="ReactModal3__Overlay"
   >
     <div>
-      <h2>Welcome to ConnectCanada</h2>
-      <p>We are delighted to have you here. This website is designed to help international students in Canada connect with each other, find useful resources, and explore various activities and events happening around. Feel free to browse through the different sections and join our community!</p>
+      <h2>Welcome to the Intelligent Book Management System
+      </h2>
+      <p>We are happy to have you here. This site is designed to help all users to control the machine pickup device to pick up and return books and to recommend individual types of books. You are welcome to browse the different sections and join our community to develop the site together!</p>
       <button onClick={onRequestClose}>Close</button>
     </div>
   </Modal>

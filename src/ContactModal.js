@@ -37,9 +37,9 @@ function ContactModal({ isOpen, onRequestClose }) {
             <option value="support">Support</option>
             <option value="sales">Sales</option>
             <option value="general">General Inquiry</option>
-            <option value="Friends1">Friends1</option>
+            {/**<option value="Friends1">Friends1</option>
             <option value="Friends2">Friends2</option>
-            <option value="Friends3">Friends3</option>
+            <option value="Friends3">Friends3</option> */}
             
           </select>
         </label>

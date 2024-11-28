@@ -43,15 +43,15 @@ function CreateActivityModal({ isOpen, onRequestClose }) {
       </div>
       <form onSubmit={handleSubmit}>
         <label>
-          Activity Name:
+          Book Name:
           <input type="text" name="name" value={activity.name} onChange={handleChange} required />
         </label>
         <label>
-          Date:
+        Expected date of return:
           <input type="date" name="date" value={activity.date} onChange={handleChange} required />
         </label>
         <label>
-          Time:
+        Expected time of return:
           <input type="time" name="time" value={activity.time} onChange={handleChange} required />
         </label>
         <label>
